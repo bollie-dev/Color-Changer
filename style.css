@@ -1,0 +1,132 @@
+body {
+    background-color: rgba(0, 0, 0, 0.797);
+}
+
+.container {
+    min-width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    background-color: purple;
+    border-radius: 8px;
+    opacity: 1;
+    width: 100%;
+    height: 70px;
+}
+
+.icon {
+    width: 35%;
+}
+
+.titles {
+    width: 40%;
+}
+
+/* Heading and subheading area */
+
+/* h1 {
+    color: whitesmoke;
+   
+    font-size: 1em;
+    font-weight: bold;
+    text-transform: uppercase;
+} */
+
+.subheading {
+    color: whitesmoke;
+    font-family: monospace;
+    font-size: 0.8em;
+}
+
+/* 
+This section defines the color ring styles
+and settings
+*/
+
+.circle {
+    border: 1px solid whitesmoke;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Button styles */
+
+button {
+    padding: 0.5em;
+    margin: 0.3em;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.56);
+    color: whitesmoke;
+    font-weight: bold;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+/* Footer styles */
+
+footer {
+    border-radius: 2px;
+    padding: 5px;
+    background-color: purple;
+    text-align: center;
+    color: white;
+    font-size: 0.6em;
+    width: 400px;
+    margin: 0 auto;
+}
+
+/* Palette area */
+
+.palette {
+    color: rgba(153, 226, 136, 0.815);
+    font-size: 2em;
+    margin-right: auto;
+
+}
+
+/* App name style */
+
+.app-name {
+    color: whitesmoke;
+    font-size: 1em;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-weight: bold;
+}
+
+/* Navigation bar */
+
+.navbar {
+    display: flex;
+    list-style-type: none;
+}
+
+.navbar li {
+    padding: 4px;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: monospace;
+    font-size: 0.7em;
+}
+
+.navbar li a:hover {
+    color: green;
+    font-weight: bold;
+    font-size: 1em;
+    text-decoration: underline;
+}

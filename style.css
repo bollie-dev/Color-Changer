@@ -79,11 +79,11 @@ button {
 
 footer {
     border-radius: 2px;
-    padding: 5px;
+    padding: 10px;
     background-color: purple;
     text-align: center;
     color: white;
-    font-size: 0.6em;
+    font-size: 1em;
     width: 400px;
     margin: 0 auto;
 }
@@ -101,8 +101,8 @@ footer {
 
 .app-name {
     color: whitesmoke;
-    font-size: 1em;
-    font-family: 'Sedgwick Ave Display', cursive;
+    font-size: 1.5em;
+    font-family: 'san-serif', cursive;
     font-weight: bold;
 }
 
@@ -121,7 +121,7 @@ footer {
     text-decoration: none;
     color: whitesmoke;
     font-family: monospace;
-    font-size: 0.7em;
+    font-size: 1.5em;
 }
 
 .navbar li a:hover {
